@@ -19,6 +19,7 @@ package com.google.android.gms.samples.vision.barcodereader;
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
+import android.os.Parcelable;
 import android.util.Log;
 import android.view.View;
 import android.widget.CompoundButton;
@@ -101,10 +102,18 @@ public class MainActivity extends Activity implements View.OnClickListener {
         if (requestCode == RC_BARCODE_CAPTURE) {
             if (resultCode == CommonStatusCodes.SUCCESS) {
                 if (data != null) {
-                    Barcode barcode = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject);
+                    Parcelable[] pbarcodes = data.getParcelableArrayExtra(BarcodeCaptureActivity.BarcodeObject);
+                    Barcode[] barcodes = new Barcode[pbarcodes.length];
+                    for (int i = 0; i < barcodes.length; i++) {
+                        barcodes[i] = (Barcode) pbarcodes[i];
+                    }
                     statusMessage.setText(R.string.barcode_success);
-                    barcodeValue.setText(barcode.displayValue);
-                    Log.d(TAG, "Barcode read: " + barcode.displayValue);
+                    String txt = "";
+                    for (int i = 0; i < barcodes.length; i++) {
+                        txt += barcodes[i].displayValue + "\n";
+                    }
+                    barcodeValue.setText(txt);
+                    Log.d(TAG, "Barcode read: " + txt);
                 } else {
                     statusMessage.setText(R.string.barcode_failure);
                     Log.d(TAG, "No barcode captured, intent data is null");

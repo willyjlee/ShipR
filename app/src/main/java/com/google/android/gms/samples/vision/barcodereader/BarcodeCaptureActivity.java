@@ -28,6 +28,7 @@ import android.content.pm.PackageManager;
 import android.hardware.Camera;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
@@ -334,33 +335,41 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
      */
     private boolean onTap(float rawX, float rawY) {
         // Find tap point in preview frame coordinates.
-        int[] location = new int[2];
-        mGraphicOverlay.getLocationOnScreen(location);
-        float x = (rawX - location[0]) / mGraphicOverlay.getWidthScaleFactor();
-        float y = (rawY - location[1]) / mGraphicOverlay.getHeightScaleFactor();
-
-        // Find the barcode whose center is closest to the tapped point.
-        Barcode best = null;
-        float bestDistance = Float.MAX_VALUE;
-        for (BarcodeGraphic graphic : mGraphicOverlay.getGraphics()) {
-            Barcode barcode = graphic.getBarcode();
-            if (barcode.getBoundingBox().contains((int) x, (int) y)) {
-                // Exact hit, no need to keep looking.
-                best = barcode;
-                break;
-            }
-            float dx = x - barcode.getBoundingBox().centerX();
-            float dy = y - barcode.getBoundingBox().centerY();
-            float distance = (dx * dx) + (dy * dy);  // actually squared distance
-            if (distance < bestDistance) {
-                best = barcode;
-                bestDistance = distance;
-            }
+//        int[] location = new int[2];
+//        mGraphicOverlay.getLocationOnScreen(location);
+//        float x = (rawX - location[0]) / mGraphicOverlay.getWidthScaleFactor();
+//        float y = (rawY - location[1]) / mGraphicOverlay.getHeightScaleFactor();
+//
+//        // Find the barcode whose center is closest to the tapped point.
+//        Barcode best = null;
+//        float bestDistance = Float.MAX_VALUE;
+//        for (BarcodeGraphic graphic : mGraphicOverlay.getGraphics()) {
+//            Barcode barcode = graphic.getBarcode();
+//            if (barcode.getBoundingBox().contains((int) x, (int) y)) {
+//                // Exact hit, no need to keep looking.
+//                best = barcode;
+//                break;
+//            }
+//            float dx = x - barcode.getBoundingBox().centerX();
+//            float dy = y - barcode.getBoundingBox().centerY();
+//            float distance = (dx * dx) + (dy * dy);  // actually squared distance
+//            if (distance < bestDistance) {
+//                best = barcode;
+//                bestDistance = distance;
+//            }
+//        }
+        Barcode[]barcodes = new Barcode[mGraphicOverlay.getGraphics().size()];
+        for (int i = 0; i < barcodes.length; i++) {
+            barcodes[i] = mGraphicOverlay.getGraphics().get(i).getBarcode();
+        }
+        Parcelable[]pbarcodes = new Parcelable[barcodes.length];
+        for (int i = 0; i < pbarcodes.length; i++) {
+            pbarcodes[i] = barcodes[i];
         }
 
-        if (best != null) {
+        if (barcodes.length > 0) {
             Intent data = new Intent();
-            data.putExtra(BarcodeObject, best);
+            data.putExtra(BarcodeObject, pbarcodes);
             setResult(CommonStatusCodes.SUCCESS, data);
             finish();
             return true;
