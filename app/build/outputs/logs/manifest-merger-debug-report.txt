@@ -1,0 +1,236 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.0.4.aar/6797ae549d60892d306cea13728d4a32/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.0.4.aar/d9209a5387b796a7c198d05e93d049ca/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/8df5a9234ad40722cd12868f20e84b0c/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/0671dfb1028cb2c63d813896487be88f/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/1df9c7791d32253b21e03679069fa27e/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/5f89e3ad09f9ad0666211648ee34a386/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/aadef4ddd310875b6b458c90b54b169f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6c373ac5691c6ecd72dd159e4fb8b6c8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/5fa2486d579adc85d376e4cc3cc6c141/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/4b3443c128c536a233b16d3ebc2cbd1a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/a575fde17dba4a33b8d295903b7d51cc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/ae068697d309c3ec918f6cdee59a8850/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/86c48fb4a28c1851bedc81403badbc5e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/9166ac10877a3725ee961a5e6198019f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6ec1d544673f26144843f8707ab515ea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/f6f4a31b40116a183096e0a34468c450/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/1c2c416f21005c67b3110dd6d7a286f5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/23147efe387ff930843ef7bb6b5558d1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ae647346a829c31f48b0127027db25ec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/36767e6e857e4d9ac1350939adbb7938/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/41b28d54ecaf39c406fea8feafcfd218/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/f80fa475c35b1f66aac33376784bf004/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/de6437cc379da5628cf87192941363f9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/30461445ca80ac54ed90dfc705057c2b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/84cf501476ee296d88388ec672789e1e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/505b280a157ea7cb8ee66b943db88ae0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fc2702a5ec4bf77f086e3f2ba3335d32/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/lee/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3bd49c1dee72ba5be09e599b9abb9294/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/9b6f18951086cc809d08fa7c166b4ad1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e675e1150bf025c88812073535ce020c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/91f2e7418492016df5052a2edf27c750/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bf5f457ea99c3ec8e02dae39309cb2fa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/1041e5f46a15c4ebb67a45a93240b7a9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/lee/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6e61c2a06d47eea307810fa0b23df479/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/lee/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/ff7fe751049289774883310bbc2455d9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/lee/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/1415d32c18412fdac88001f51660a9d0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/lee/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/868af6ab44b473104cd4e8d5243fd4ec/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:3:5-66
+		INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:4:5-35
+uses-feature#android.hardware.camera
+ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:6:5-60
+	android:name
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:6:19-57
+uses-permission#android.permission.CAMERA
+ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:8:22-62
+application
+ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:10:5-37:19
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.0.4.aar/6797ae549d60892d306cea13728d4a32/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.0.4.aar/6797ae549d60892d306cea13728d4a32/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.0.4.aar/d9209a5387b796a7c198d05e93d049ca/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.0.4.aar/d9209a5387b796a7c198d05e93d049ca/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/8df5a9234ad40722cd12868f20e84b0c/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/8df5a9234ad40722cd12868f20e84b0c/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/0671dfb1028cb2c63d813896487be88f/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/0671dfb1028cb2c63d813896487be88f/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/1df9c7791d32253b21e03679069fa27e/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/1df9c7791d32253b21e03679069fa27e/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:design:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/aadef4ddd310875b6b458c90b54b169f/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/aadef4ddd310875b6b458c90b54b169f/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/84cf501476ee296d88388ec672789e1e/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/84cf501476ee296d88388ec672789e1e/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fc2702a5ec4bf77f086e3f2ba3335d32/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fc2702a5ec4bf77f086e3f2ba3335d32/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/84cf501476ee296d88388ec672789e1e/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:16:9-37
+	android:label
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:15:9-40
+	android:hardwareAccelerated
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:13:9-43
+	android:fullBackupContent
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:12:9-42
+	android:icon
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:14:9-38
+	android:allowBackup
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:17:9-47
+meta-data#com.google.android.gms.version
+ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:18:9-20:69
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/1df9c7791d32253b21e03679069fa27e/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/1df9c7791d32253b21e03679069fa27e/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:20:13-66
+	android:name
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:19:13-58
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:21:9-23:39
+	android:value
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:22:13-70
+activity#com.google.android.gms.samples.vision.barcodereader.MainActivity
+ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:25:9-33:20
+	android:label
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:27:13-56
+	android:name
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:26:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:31:27-74
+activity#com.google.android.gms.samples.vision.barcodereader.BarcodeCaptureActivity
+ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:35:9-36:43
+	android:label
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:36:13-41
+	android:name
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:35:19-57
+uses-sdk
+INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.0.4.aar/6797ae549d60892d306cea13728d4a32/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.0.4.aar/6797ae549d60892d306cea13728d4a32/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.0.4.aar/d9209a5387b796a7c198d05e93d049ca/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.0.4.aar/d9209a5387b796a7c198d05e93d049ca/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/8df5a9234ad40722cd12868f20e84b0c/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/8df5a9234ad40722cd12868f20e84b0c/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/0671dfb1028cb2c63d813896487be88f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/0671dfb1028cb2c63d813896487be88f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/1df9c7791d32253b21e03679069fa27e/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/1df9c7791d32253b21e03679069fa27e/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/5f89e3ad09f9ad0666211648ee34a386/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/5f89e3ad09f9ad0666211648ee34a386/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/aadef4ddd310875b6b458c90b54b169f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/aadef4ddd310875b6b458c90b54b169f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6c373ac5691c6ecd72dd159e4fb8b6c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6c373ac5691c6ecd72dd159e4fb8b6c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/5fa2486d579adc85d376e4cc3cc6c141/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/5fa2486d579adc85d376e4cc3cc6c141/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/4b3443c128c536a233b16d3ebc2cbd1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/4b3443c128c536a233b16d3ebc2cbd1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/a575fde17dba4a33b8d295903b7d51cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/a575fde17dba4a33b8d295903b7d51cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/ae068697d309c3ec918f6cdee59a8850/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/ae068697d309c3ec918f6cdee59a8850/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/86c48fb4a28c1851bedc81403badbc5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/86c48fb4a28c1851bedc81403badbc5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/9166ac10877a3725ee961a5e6198019f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/9166ac10877a3725ee961a5e6198019f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6ec1d544673f26144843f8707ab515ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6ec1d544673f26144843f8707ab515ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/f6f4a31b40116a183096e0a34468c450/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/f6f4a31b40116a183096e0a34468c450/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/1c2c416f21005c67b3110dd6d7a286f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/1c2c416f21005c67b3110dd6d7a286f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/23147efe387ff930843ef7bb6b5558d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/23147efe387ff930843ef7bb6b5558d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ae647346a829c31f48b0127027db25ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ae647346a829c31f48b0127027db25ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/36767e6e857e4d9ac1350939adbb7938/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/36767e6e857e4d9ac1350939adbb7938/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/41b28d54ecaf39c406fea8feafcfd218/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/41b28d54ecaf39c406fea8feafcfd218/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/f80fa475c35b1f66aac33376784bf004/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/f80fa475c35b1f66aac33376784bf004/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/de6437cc379da5628cf87192941363f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/de6437cc379da5628cf87192941363f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/30461445ca80ac54ed90dfc705057c2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/30461445ca80ac54ed90dfc705057c2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/84cf501476ee296d88388ec672789e1e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/84cf501476ee296d88388ec672789e1e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/505b280a157ea7cb8ee66b943db88ae0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/505b280a157ea7cb8ee66b943db88ae0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fc2702a5ec4bf77f086e3f2ba3335d32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fc2702a5ec4bf77f086e3f2ba3335d32/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/lee/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3bd49c1dee72ba5be09e599b9abb9294/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/lee/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3bd49c1dee72ba5be09e599b9abb9294/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/9b6f18951086cc809d08fa7c166b4ad1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/9b6f18951086cc809d08fa7c166b4ad1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e675e1150bf025c88812073535ce020c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e675e1150bf025c88812073535ce020c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/91f2e7418492016df5052a2edf27c750/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/91f2e7418492016df5052a2edf27c750/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bf5f457ea99c3ec8e02dae39309cb2fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bf5f457ea99c3ec8e02dae39309cb2fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/1041e5f46a15c4ebb67a45a93240b7a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/lee/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/1041e5f46a15c4ebb67a45a93240b7a9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/lee/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6e61c2a06d47eea307810fa0b23df479/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/lee/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6e61c2a06d47eea307810fa0b23df479/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/lee/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/ff7fe751049289774883310bbc2455d9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/lee/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/ff7fe751049289774883310bbc2455d9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/lee/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/1415d32c18412fdac88001f51660a9d0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/lee/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/1415d32c18412fdac88001f51660a9d0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/lee/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/868af6ab44b473104cd4e8d5243fd4ec/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/lee/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/868af6ab44b473104cd4e8d5243fd4ec/AndroidManifest.xml:20:5-44
+INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lee/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/8df5a9234ad40722cd12868f20e84b0c/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/8df5a9234ad40722cd12868f20e84b0c/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/8df5a9234ad40722cd12868f20e84b0c/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/lee/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/8df5a9234ad40722cd12868f20e84b0c/AndroidManifest.xml:19:19-85
